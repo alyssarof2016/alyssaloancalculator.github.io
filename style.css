@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+#container {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#calculator {
+    position: absolute;
+    top: 200px;
+    left: 15%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 60px 70px;
+    border-radius: 25px;
+    background-color: hsla(360, 100%, 100%, 0.6);
+    
+}
+
+#calculatorResults {
+    position: absolute;
+    top: 200px;
+    right: 15%;
+    margin:0 auto;
+    border: 1px solid gray;
+    padding: 0 40px 70px 40px;
+    border-radius: 25px;
+    background-color: hsla(360, 100%, 100%, 0.6);
+    width: 500px;
+    height: 345px;
+}
+
+#calculatorResults p{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+#amortizationTable {
+    background-color: hsla(360, 100%, 100%, 0.6);
+    text-align: center;
+    position: relative;
+    top: 600px;
+    width: 75%;  
+    font-size: 18px;
+    margin: 0 auto;
+    font-variant: small-caps;
+    letter-spacing: 0.25em;
+}
+
+h1{
+    background-color: hsla(360, 100%, 100%, 0.6);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    font-size: 30px;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+}
+p {
+    background-color: hsla(360, 100%, 100%, 0.6);
+    text-align: center;
+    position: relative;
+    top: 36px;
+    width: 75%;  
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+form label {
+    display: inline-block;
+    text-align: left;
+    width: 115px;
+}
+input[type="number"] {
+    width: 268px;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+input[type="radio"] {
+    filter: grayscale(1);
+}
+
+button {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2.5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
