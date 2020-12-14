@@ -1,1 +1,1 @@
-# loancalculator
+Loan Calculator Project
